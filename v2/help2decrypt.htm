@@ -7,11 +7,14 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
-    <h3>Mono alphabetic decryption for the German alphabet</h3>
+<body onload="init();">
+	<h3>Mono alphabetic decryption for the German alphabet</h3>
+	Note: capitalization is ignored
+	<br>
     <textarea name="input" rows="8" cols="80" id="input" placeholder="Hier verschlüsselten Text eingeben."></textarea>
     <BR>
-	<button name="button" onclick="main();">Submit</button>
+	<button name="submitB" onclick="main();">Submit</button>
+	<button name="tstRunB" onclick="tst();">TestRun</button>
 	<BR>
 
 <br><br><br>
